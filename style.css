@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.wrap-menu{
+    position: fixed;
+    top: 0;
+    background-color: #ffff;
+    width: 100%;
+    height: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 999;
+}
+
+ul {
+    position: absolute;
+    top: 5px;
+    left: 35%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    transition: all 200ms linear;
+    opacity: 0.7;
+}
+a:hover{
+    text-decoration: underline;
+    transition: all 200ms linear;
+    opacity: 1;
+}
+
+
+.perfil01{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    gap:50px;
+
+}
+.perfil02{
+    width: 100%;
+    height: auto;
+    background: green;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    gap:50px;
+
+}
+
+.tecDiv{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+.contactDiv{
+    width: 100%;
+    height: auto;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.leftContact{
+    width:600px;
+    min-width: 300px;
+    height: 500px;
+}
+
+.rightContact{
+    width: 600px;
+    min-width: 300px;
+    height:500px;
+}
+.rel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img01{
+    position: absolute;
+    transition: all 400ms linear;
+}
+.img01:hover{
+    cursor: crosshair;
+    transform: scale(1.5);
+    transition: all 400ms linear;
+
+}
+
+.leftDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightDiv{
+    width: 40%;
+}
+
+.leftContact{
+
+}
+
+.rel2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img02{
+    position: absolute;
+    transition: all 400ms linear;
+}
+.img02:hover{
+    cursor: crosshair;
+    transform: scale(1.5);
+    transition: all 400ms linear;
+
+}
+
+.leftDiv2{
+    width: 40%
+}
+.rightDiv2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
